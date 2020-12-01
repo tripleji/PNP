@@ -113,6 +113,7 @@
     box-decoration-break: clone;
 
     &--1 {
+      font-size: 2rem;
       background-image: linear-gradient(
         to right bottom,
         rgba($color-dgrey-1, 0.85),
@@ -120,20 +121,41 @@
       );
     }
 
-    &__details {
-      ul {
-        list-style: none;
-        width: 100%;
+    &--2 {
+      font-size: 2rem;
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-dgrey-1, 0.85),
+        rgba($color-dgrey-2, 0.85)
+      );
+    }
 
-        li {
-          text-align: center;
-          font-size: 1.5rem;
-          padding: 1rem;
-        }
-      }
+    &--3 {
+      font-size: 2rem;
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-dgrey-1, 0.85),
+        rgba($color-dgrey-2, 0.85)
+      );
     }
   }
 
+  &__details {
+    padding: 3rem;
+
+    ul {
+      list-style: none;
+      width: 80%;
+      margin: 0 auto;
+
+      li {
+        text-align: center;
+        font-size: 1.4rem;
+        font-weight: 700;
+        padding: 1rem;
+      }
+    }
+  }
   &__cta {
     position: absolute;
     top: 50%;
