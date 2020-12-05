@@ -1,10 +1,14 @@
 .navbar {
+  position: fixed;
+  width: 96.4%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: $color-dgrey-1;
+  background-color: transparent;
   color: $color-white;
   padding: 3rem;
+  transition: all 0.2s ease-in-out;
+  z-index: 30;
 
   &__logo-box {
     top: 4rem;
@@ -37,5 +41,17 @@
     right: 4rem;
     font-size: 2.6rem;
     color: $color-white;
+    display: none;
   }
+}
+
+.navbar--dark {
+  background-color: $color-dgrey-1;
+  padding: 1.5rem;
+  margin-top: -3rem;
+}
+
+#navbar__login {
+  border: 2.5px solid $color-white;
+  border-radius: 20px;
 }

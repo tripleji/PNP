@@ -3,16 +3,18 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+        <title>C&D | 애견 전문 헤어샵  </title>
 
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
         <link rel="stylesheet" href="css/icon-font.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="shortcut icon" type="image/png" href="img/favicon.ico">
         <script src="https://kit.fontawesome.com/6938c44e7b.js" crossorigin="anonymous"></script>
-        <title>C&D | 애견 전문 헤어샵  </title>
+        <script src="main.js" defer></script>
     </head>
     <body>
+
+        <!-- 메뉴 상단 -->
         <nav class="navbar">
             <div class="navbar__logo-box">
                 <img src="img/logo.png" alt="Logo" class="navbar__logo">
@@ -21,19 +23,21 @@
 
             <div class="navbar__menu">
                 <ul class="navbar__menu">
-                    <li class="navbar__menu__item">내 주변</li>
-                    <li class="navbar__menu__item">입점 문의</li>
-                    <li class="navbar__menu__item">예약</li>
-                    <li class="navbar__menu__item">로그인</li>
+                    <a href="#"><li class="navbar__menu__item">내 주변</li></a>
+                    <a href="#"><li class="navbar__menu__item">입점 문의</li></a>
+                    <a href="#"><li class="navbar__menu__item">예약</li></a> 
+                    <a href="#"><li class="navbar__menu__item" id="navbar__login">로그인</li></a>
                 </ul>
             </div>
 
+            <!-- 토글 버튼 -->
             <button class="navbar__toggle-btn">
                 <i class="fas fa-bars"></i>
             </button>
 
         </nav>
            
+        <!-- 헤더 -->
         <header class="header">
 
             <div class="header__text-box">
@@ -46,8 +50,10 @@
             </div>
         </header>
 
-        <!--Main-->
+        <!--메인-->
         <main>
+
+            <!-- 소개 -->
             <section class="section-about">
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">
@@ -79,6 +85,7 @@
                 </div>
             </section>
 
+            <!-- 특징 -->
             <section class="section-features">
 
                 <div class="row">
