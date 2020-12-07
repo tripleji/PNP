@@ -1,7 +1,7 @@
 *,
 *::after,
 *::before {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   box-sizing: inherit; }
 
@@ -10,7 +10,7 @@ html {
 
 body {
   box-sizing: border-box;
-  margin: 0;
+  margin: 0 auto;
   cursor: default; }
 
 a {
@@ -45,6 +45,26 @@ body {
   line-height: 1.7;
   color: #777;
   padding: 3rem; }
+
+.location {
+  position: relative;
+  padding-top: 12em;
+  margin-right: 60rem; }
+
+.filter__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .filter__menu__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+    padding: 0.1rem;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer; }
 
 .btn, .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -123,15 +143,18 @@ body {
     width: calc( 3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
 
 .locations {
-  height: 30vh;
+  width: 96.4%;
+  height: 30rem;
   background-color: rgba(196, 192, 192, 0.301);
-  padding-top: 15rem; }
+  position: fixed;
+  padding: 3rem; }
 
 .maps {
-  height: 30vh; }
+  height: 100vh;
+  padding: 70rem; }
 
 .shops {
-  height: 30vh;
+  height: 200vh;
   background-color: rgba(196, 192, 192, 0.301); }
 
 .footer {

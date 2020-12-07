@@ -1,14 +1,20 @@
+// 검색 및 필터
 .locations {
-  height: 30vh;
+  width: 96.4%;
+  height: 30rem;
   background-color: rgba(196, 192, 192, 0.301);
-  padding-top: 15rem;
+  position: fixed;
+  padding: 3rem;
 }
 
+// 지도
 .maps {
-  height: 30vh;
+  height: 100vh;
+  padding: 70rem;
 }
 
+// 헤어샵 목록
 .shops {
-  height: 30vh;
+  height: 200vh;
   background-color: rgba(196, 192, 192, 0.301);
 }
