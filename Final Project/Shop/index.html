@@ -15,25 +15,19 @@
 
 <body>
     <!--메뉴바-->
-    <nav class="navbar">
-        <div class="navbar__logo-box">
-            <img src="img/logo.png" alt="Logo" class="navbar__logo">
-            <a href="#" class="navbar__logo">C&D</a>
+    <nav id="navbar">
+        <div class="navbar__logo">
+            <img src="img/logo.png" width="40px">
+            <a href="#">C&D</a>
         </div>
-
         <div class="navbar__menu">
             <ul class="navbar__menu">
-                <a href="#"><li class="navbar__menu__item">내주변</li></a>
-                <a href="#"><li class="navbar__menu__item">입점 문의</li></a>
-                <a href="#"><li class="navbar__menu__item">예약</li></a> 
-                <a href="#"><li class="navbar__menu__item" id="navbar__login">로그인</li></a>
+                <li class="navbar__menu__item">내주변</li>
+                <li class="navbar__menu__item">입점 문의</li>
+                <li class="navbar__menu__item">예약</li>
+                <li class="navbar__menu__item">로그인</li>
             </ul>
         </div>
-
-        <!-- 토글 버튼 -->
-        <button class="navbar__toggle-btn">
-            <i class="fas fa-bars"></i>
-        </button>
     </nav>
    <!--메뉴바 END--> 
 
@@ -48,14 +42,37 @@
             <a href="#" class="location__change">지역변경</a>
       
 
-        <div class="filter__menu">
-            <ul class="filter__menu">
-                <li><button class="filter__menu__item">종분류<i class="fas fa-chevron-down"></i></button></li>
-                <li><button class="filter__menu__item">몸무게&털종류<i class="fas fa-chevron-down"></i></button></li>
-                <li><button class="filter__menu__item">매장정보<i class="fas fa-chevron-down"></i></button></li>
-                <li><button class="filter__menu__item">정렬(거리순, 리뷰순, 평점순)<i class="fas fa-chevron-down"></i></button></li>
-                <li><button class="filter__menu__item">정렬(지역반경)<i class="fas fa-chevron-down"></i></button></li>
-            </ul>
+        <div class="filter__menus">
+            <select>
+                <option>종분류<i class="fas fa-chevron-down"></i></option>
+                <option>소형</option>
+                <option>중형</option>
+                <option>대형</option>
+            </select>
+
+            <select>
+                <option>몸무게&털종류<i class="fas fa-chevron-down"></i></option>
+                <option>장모</option>
+                <option>단모</option>
+            </select>
+
+            <select>
+                <option>매장정보<i class="fas fa-chevron-down"></i></option>
+                <option>주차가능</option>
+                <option>Free Wifi</option>
+                <option>지하철역 주변</option>
+                <option>추가비용 없음</option>
+                <option>픽업가능</option>
+                <option>대형견가능</option>
+            </select>
+
+            <select>
+                <option>정렬<i class="fas fa-chevron-down"></i></option>
+                <option>거리순</option>
+                <option>리뷰순</option>
+                <option>평점순</option>
+            </select>
+        
         </div>
     </div>
     </section>
@@ -69,21 +86,23 @@
 
     <!--헤어샵 목록-->
     <section class="shops">
+
         <div class="shop__info">
-            <a href="#" class="shop__info">
-                <div class="shop__info__detail">
-                    <strong class="shop__info__detail-1">
-                        C&D 헤어샵
-                    </strong>
-                    <span class="shop__info__distance">1.5km</span>
-                </div>
-                <ul class="shop__info__detail-2">
-                    <li><i class="fas fa-star"></i>&nbsp; 4.6</li>
-                    <li><i class="fas fa-comment-alt"></i>&nbsp; 3</li>
-                </ul>
-                <p class="shop__info__desc">서울시 강북구 미아동</p>
-                <p class="shop__info__desc">커트 50,000원</p>
-            </a>
+            <a href="#" class="shop__info"><img src="img/product1.jpg"></a>
+            <h2><a href="product-details.html">네이처 미아 헤어점</a></h2>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p class="desc_info_card">수유방면 미아역버스정류장앞, 미아역 4번출구 보도 3분거리 </p>
+            <p class="desc_info_card">커트 15,300원</p>
+            <div class="cover_tag">
+                <span class="tag_shop">타임세일</span>
+                <span class="tag_shop">쿠폰</span>
+            </div>
         </div>
     </section>
 
