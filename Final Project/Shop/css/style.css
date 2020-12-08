@@ -1,0 +1,41 @@
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #d1d0d0;
+  align-items: center;
+  color: color-black;
+  padding: 1rem;
+  position: fixed;
+  width: 100%; }
+
+.navbar__menu {
+  display: flex;
+  font-size: 1.5rem;
+  cursor: pointer; }
+  .navbar__menu__item {
+    padding: 0.5rem 1.2rem;
+    margin: 0 2rem; }
+
+.navbar__logo {
+  font-size: 3.5rem;
+  font-weight: weight-semi-bold;
+  cursor: pointer; }
+  .navbar__logo__image {
+    width: 3rem; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-weight: weight-regular;
+  line-height: 1.7; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+ul {
+  list-style: none;
+  padding-left: 0; }
