@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내주변에서 가장 가까운 헤어샵 찾기 | C&D 헤어샵</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="css/icon-font.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.ico">
+        <script src="https://kit.fontawesome.com/6938c44e7b.js" crossorigin="anonymous"></script>
+        <script src="main.js" defer></script>
+</head>
+
+<body>
+    <!--메뉴바-->
+    <nav id="navbar">
+        
+        <div class="navbar__logo">
+            <a href="#"></a><img class="navbar__logo__image" src="img/logo.png">C&D</a>
+        </div>
+
+        <div class="navbar__menu">
+            <ul class="navbar__menu">
+                <li class="navbar__menu__item">내주변</li>
+                <li class="navbar__menu__item">입점 문의</li>
+                <li class="navbar__menu__item">예약</li>
+                <li class="navbar__menu__item active">로그인</li>
+            </ul>
+        </div>
+        
+    </nav>
+   <!--메뉴바 END--> 
+
+
+    <!--지역 검색 및 필터-->
+    <section id="locations">
+        <div class="location">
+            <strong class="location__select"><a href href="#">
+                위치기반으로 주소 뜨는 곳!
+                <i class="icon-basic-paperplane"></i></a>
+            </strong>
+            <a href="#" class="location__change">지역변경</a>
+      
+
+        <div class="filter__menu">
+            <select class="filter__menu__item">
+                <option>종분류<i class="fas fa-chevron-down"></i></option>
+                <option>소형</option>
+                <option>중형</option>
+                <option>대형</option>
+            </select>
+
+            <select class="filter__menu__item">
+                <option>몸무게&털종류<i class="fas fa-chevron-down"></i></option>
+                <option>장모</option>
+                <option>단모</option>
+            </select>
+
+            <select class="filter__menu__item">
+                <option>매장정보<i class="fas fa-chevron-down"></i></option>
+                <option>주차가능</option>
+                <option>Free Wifi</option>
+                <option>지하철역 주변</option>
+                <option>추가비용 없음</option>
+                <option>픽업가능</option>
+                <option>대형견가능</option>
+            </select>
+
+            <select class="filter__menu__item">
+                <option>정렬<i class="fas fa-chevron-down"></i></option>
+                <option>거리순</option>
+                <option>리뷰순</option>
+                <option>평점순</option>
+            </select>
+        
+        </div>
+    </div>
+    </section>
+
+    <!--지도-->
+    <section id="maps">
+        <div class="map">
+            지도를 넣어주세용
+        </div>
+    </section>
+
+    <!--헤어샵 목록-->
+    <section id="shops">
+
+        <div class="shop__infos">
+            <a class="shop__info" href="상세페이지">
+                <div class="shop__info__detail">
+                    <img src="img/product1.jpg" alt="" class="shop__info__detail__image">
+                </div>
+                <div class="shop__title">
+                    <div class="shop__title__detail">
+                    <strong class="shop__title__detail">네이처헤어 미아2호점</strong>
+                </div>
+                <span class="shop__distance">0.1km</span>
+                <dl class="shop__star">
+                    <dt><span class="ico_hair ico_star">별점</span></dt>
+                    <dd>4.9</dd>
+                    <dt><span class="ico_hair ico_review">리뷰수</span></dt>
+                    <dd>424</dd>
+                </dl>
+                <p class="desc__info__card">수유방면 미아역버스정류장앞, 미아역 4번출구 보도 3분거리 </p>
+                <p class="desc__info__card">커트 15,300원</p>
+                <div class="tags"><span class="tag__shop">타임세일</span>
+                    <span class="tag__shop">쿠폰</span>
+                </div>
+                <span class="line"></span>
+            </a>
+        </div>
+
+        <div class="shop__infos">
+            <a class="shop__info" href="상세페이지">
+                <div class="shop__info__detail">
+                    <img src="img/product2.jpg" alt="" class="shop__info__detail__image">
+                </div>
+                <div class="shop__title">
+                    <div class="shop__title__detail">
+                    <strong class="shop__title__detail">네이처헤어 미아2호점</strong>
+                </div>
+                <span class="shop__distance">0.1km</span>
+                <dl class="shop__star">
+                    <dt><span class="ico_hair ico_star">별점</span></dt>
+                    <dd>4.9</dd>
+                    <dt><span class="ico_hair ico_review">리뷰수</span></dt>
+                    <dd>424</dd>
+                </dl>
+                <p class="desc__info__card">수유방면 미아역버스정류장앞, 미아역 4번출구 보도 3분거리 </p>
+                <p class="desc__info__card">커트 15,300원</p>
+                <div class="tags"><span class="tag__shop">타임세일</span>
+                    <span class="tag__shop">쿠폰</span>
+                </div>
+                <span class="line"></span>
+            </a>
+        </div>
+
+        <div class="shop__info">
+            <a class="shop__info" href="상세페이지">
+                <div class="shop__info__detail">
+                    <img src="img/product3.jpg" alt="" class="shop__info__detail__image">
+                </div>
+                <div class="shop__title">
+                    <div class="shop__title__detail">
+                    <strong class="shop__title__detail">네이처헤어 미아2호점</strong>
+                </div>
+                <span class="shop__distance">0.1km</span>
+                <dl class="shop__star">
+                    <dt><span class="ico_hair ico_star">별점</span></dt>
+                    <dd>4.9</dd>
+                    <dt><span class="ico_hair ico_review">리뷰수</span></dt>
+                    <dd>424</dd>
+                </dl>
+                <p class="desc__info__card">수유방면 미아역버스정류장앞, 미아역 4번출구 보도 3분거리 </p>
+                <p class="desc__info__card">커트 15,300원</p>
+                <div class="tags"><span class="tag__shop">타임세일</span>
+                    <span class="tag__shop">쿠폰</span>
+                </div>
+                <span class="line"></span>
+            </a>
+
+        </div>
+
+        <div class="shop__infos">
+            <a class="shop__info" href="상세페이지">
+                <div class="shop__info__detail">
+                    <img src="img/product4.jpg" alt="" class="shop__info__detail__image">
+                </div>
+                <div class="shop__title">
+                    <div class="shop__title__detail">
+                    <strong class="shop__title__detail">네이처헤어 미아2호점</strong>
+                </div>
+                <span class="shop__distance">0.1km</span>
+                <dl class="shop__star">
+                    <dt><span class="ico_hair ico_star">별점</span></dt>
+                    <dd>4.9</dd>
+                    <dt><span class="ico_hair ico_review">리뷰수</span></dt>
+                    <dd>424</dd>
+                </dl>
+                <p class="desc__info__card">수유방면 미아역버스정류장앞, 미아역 4번출구 보도 3분거리 </p>
+                <p class="desc__info__card">커트 15,300원</p>
+                <div class="tags"><span class="tag__shop">타임세일</span>
+                    <span class="tag__shop">쿠폰</span>
+                </div>
+                <span class="line"></span>
+            </a>
+        </div>
+        
+    </section>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Footer-->
+    <footer id="footer">
+
+        <div class="footer__logo">
+            <a href="#"><img src="img/logo.png" alt="logo" class="footer__logo__image" width="40px">C&D</a>
+        </div>
+
+            <div class="footer__navigation">
+                <div class="footer__list">
+                    <ul class="footer__list">
+                        <li class="footer__list__item"><a href="#" >Company</a></li>
+                        <li class="footer__list__item"><a href="#" >Contact us</a></li>
+                        <li class="footer__list__item"><a href="#" >Careers</a></li>
+                        <li class="footer__list__item"><a href="#" >Privacy policy</a></li>
+                        <li class="footer__list__item"><a href="#" >Terms</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__copyright">
+                    <p class="footer__copyright">
+                        This is our final project called C&D Hairshop, Enjoy it! <br/><a href="#">Copyright &copy; by KJH SWS SHJ LCW JJK</a> 
+                    </p>
+                </div>
+            </div>
+        
+    </footer>
+    <!--Footer END-->
+
+</body>
+</html>
