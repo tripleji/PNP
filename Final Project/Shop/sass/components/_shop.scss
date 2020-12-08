@@ -1,0 +1,22 @@
+#shops {
+  padding: 1rem 0 40rem 1rem;
+  background-color: #fff;
+  border-bottom: 1px solid #000;
+}
+
+.shop__info {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  &__detail {
+    margin-left: 7rem;
+    margin-top: -7rem;
+
+    &__star {
+      margin-bottom: 6rem;
+    }
+  }
+}
+
+.desc_info_card {
+}

@@ -1,12 +1,20 @@
 * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
+  background-color: #fff;
+  color: #000;
+  overflow-x: hidden;
 }
 
 body {
-  margin: 0;
   font-family: "Lato", sans-serif;
   font-weight: weight-regular;
-  line-height: 1.7;
 }
 
 a {
@@ -16,5 +24,4 @@ a {
 
 ul {
   list-style: none;
-  padding-left: 0;
 }

@@ -26,7 +26,7 @@
                 <li class="navbar__menu__item">내주변</li>
                 <li class="navbar__menu__item">입점 문의</li>
                 <li class="navbar__menu__item">예약</li>
-                <li class="navbar__menu__item">로그인</li>
+                <li class="navbar__menu__item active">로그인</li>
             </ul>
         </div>
         
@@ -35,30 +35,30 @@
 
 
     <!--지역 검색 및 필터-->
-    <section class="locations">
+    <section id="locations">
         <div class="location">
-            <strong class="location__select">
+            <strong class="location__select"><a href href="#">
                 위치기반으로 주소 뜨는 곳!
-                <i class="icon-basic-paperplane"></i>   
+                <i class="icon-basic-paperplane"></i></a>
             </strong>
             <a href="#" class="location__change">지역변경</a>
       
 
-        <div class="filter__menus">
-            <select>
+        <div class="filter__menu">
+            <select class="filter__menu__item">
                 <option>종분류<i class="fas fa-chevron-down"></i></option>
                 <option>소형</option>
                 <option>중형</option>
                 <option>대형</option>
             </select>
 
-            <select>
+            <select class="filter__menu__item">
                 <option>몸무게&털종류<i class="fas fa-chevron-down"></i></option>
                 <option>장모</option>
                 <option>단모</option>
             </select>
 
-            <select>
+            <select class="filter__menu__item">
                 <option>매장정보<i class="fas fa-chevron-down"></i></option>
                 <option>주차가능</option>
                 <option>Free Wifi</option>
@@ -68,7 +68,7 @@
                 <option>대형견가능</option>
             </select>
 
-            <select>
+            <select class="filter__menu__item">
                 <option>정렬<i class="fas fa-chevron-down"></i></option>
                 <option>거리순</option>
                 <option>리뷰순</option>
@@ -80,25 +80,28 @@
     </section>
 
     <!--지도-->
-    <section class="maps">
+    <section id="maps">
         <div class="map">
             지도를 넣어주세용
         </div>
     </section>
 
     <!--헤어샵 목록-->
-    <section class="shops">
+    <section id="shops">
 
         <div class="shop__info">
-            <a href="#" class="shop__info"><img src="img/product1.jpg"></a>
+            <a href="#"><img src="img/product1.jpg" width="50px"></a>
+        </div>
+        <div class="shop__info__detail">
             <h2><a href="product-details.html">네이처 미아 헤어점</a></h2>
-            <div class="rating">
+            <div class="shop__info__detail__star">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star-o"></i>
             </div>
+        </div>    
             <p class="desc_info_card">수유방면 미아역버스정류장앞, 미아역 4번출구 보도 3분거리 </p>
             <p class="desc_info_card">커트 15,300원</p>
             <div class="cover_tag">
@@ -131,37 +134,32 @@
 
 
     <!--Footer-->
-    <footer class="footer">
+    <footer id="footer">
 
-        <div class="footer__logo-box">
-            <a href="#">
-                <img src="img/logo.png" alt="logo" class="footer__logo">
-                <h1 class="footer__font">C&D</h1>
-            </a>
+        <div class="footer__logo">
+            <a href="#"><img src="img/logo.png" alt="logo" class="footer__logo__image" width="40px">C&D</a>
         </div>
 
-        <div class="row">
-            <div class="col-1-of-2">
-                <div class="footer__navigation">
+            <div class="footer__navigation">
+                <div class="footer__list">
                     <ul class="footer__list">
-                        <li class="footer__item"><a href="#" class="footer__link">Company</a></li>
-                        <li class="footer__item"><a href="#" class="footer__link">Contact us</a></li>
-                        <li class="footer__item"><a href="#" class="footer__link">Careers</a></li>
-                        <li class="footer__item"><a href="#" class="footer__link">Privacy policy</a></li>
-                        <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
+                        <li class="footer__list__item"><a href="#" >Company</a></li>
+                        <li class="footer__list__item"><a href="#" >Contact us</a></li>
+                        <li class="footer__list__item"><a href="#" >Careers</a></li>
+                        <li class="footer__list__item"><a href="#" >Privacy policy</a></li>
+                        <li class="footer__list__item"><a href="#" >Terms</a></li>
                     </ul>
                 </div>
-            </div>
 
-            <div class="col-1-of-2">
-                <p class="footer__copyright">
-                    This is our final project called C&D Hairshop, Enjoy it! <br/><a href="#" class="footer__link">Copyright &copy; by KJH SWS SHJ LCW JJK</a> 
-                </p>
+                <div class="footer__copyright">
+                    <p class="footer__copyright">
+                        This is our final project called C&D Hairshop, Enjoy it! <br/><a href="#">Copyright &copy; by KJH SWS SHJ LCW JJK</a> 
+                    </p>
+                </div>
             </div>
-
-        </div>
         
     </footer>
     <!--Footer END-->
+
 </body>
 </html>
