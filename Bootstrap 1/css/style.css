@@ -4,7 +4,7 @@
 }
 
 .container {
-  padding: 160px 0 50px 0;
+  padding: 100px 0 50px 0;
   justify-content: center;
   text-align: center;
 }
@@ -34,4 +34,8 @@ a:hover {
   z-index: 100;
   width: 100%;
   padding: 0;
+}
+
+.row {
+  padding: 160px 0 50px 0;
 }
